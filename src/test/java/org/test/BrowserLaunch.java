@@ -13,5 +13,6 @@ browserLaunch("https://www.facebook.com/");
 	fill(email, "Lalith");
 	WebElement password = driver.findElement(By.id("pass"));
 	fill(password, "Lalith@1234");
+System.out.println("Work is done");
 }
 }
